@@ -27,10 +27,10 @@
     "require-dev": {
         "guzzlehttp/guzzle": "^7.2",
         "laravel/pint": "^1.2",
-        "orchestra/testbench": "^8.0|^9.0|^10.0",
-        "pestphp/pest": "^2.34.0",
-        "pestphp/pest-plugin-laravel": "^2.2.0",
-        "pestphp/pest-plugin-parallel": "^2.0.0"
+        "orchestra/testbench": "^8.0",
+        "pestphp/pest": "^2.0",
+        "pestphp/pest-plugin-laravel": "^2.0",
+        "pestphp/pest-plugin-parallel": "^1.2"
     },
     "suggest": {
         "ext-gd": "Required for rotating labels",

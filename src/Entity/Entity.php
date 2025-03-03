@@ -310,8 +310,6 @@ abstract class Entity implements Arrayable, ArrayAccess, Jsonable, JsonSerializa
 
     /**
      * Determine if accessing missing attributes is prevented.
-     *
-     * @return bool
      */
     public static function preventsAccessingMissingAttributes(): bool
     {

@@ -24,6 +24,16 @@ class TestCase extends Orchestra
         ];
     }
 
+    protected function getEnvironmentSetUp($app): void
+    {
+        // Ustawienie domyślnej konfiguracji UPS dla testów
+        $app['config']->set('ups.access_key', 'test_access_key');
+        $app['config']->set('ups.user_id', 'test_user_id');
+        $app['config']->set('ups.password', 'test_password');
+        $app['config']->set('ups.shipper_number', 'test_shipper_number');
+        $app['config']->set('ups.sandbox', true);
+    }
+
     protected function loadEnvironmentVariables(): void
     {
         /*
